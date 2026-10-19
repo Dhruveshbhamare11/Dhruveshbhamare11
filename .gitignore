@@ -1,0 +1,5 @@
+renders/
+scripts/
+*.zip
+.tempmediaStorage/
+.user_uploaded/
