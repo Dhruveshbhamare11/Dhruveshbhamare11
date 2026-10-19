@@ -111,20 +111,20 @@
   <rect x="1" y="1" width="848" height="488" rx="20" fill="url(#stack-dots)" />
 
   <!-- Section Title -->
-  <g transform="translate(35, 32)">
-    <rect x="0" y="0" width="120" height="24" rx="6" fill="#0d1933" stroke="rgba(36, 123, 255, 0.3)" />
-    <text x="12" y="16" class="stack-mono" font-size="11" fill="#60a5fa" font-weight="600">✦ TECH RADAR</text>
-    <text x="135" y="18" font-size="15" font-weight="700" fill="#f0f4fc">TILTED ELLIPTICAL ORBITS &amp; ECOSYSTEM</text>
+  <g transform="translate(35, 26)">
+    <rect x="0" y="0" width="130" height="26" rx="6" fill="#0d1933" stroke="rgba(36, 123, 255, 0.3)" />
+    <text x="12" y="17" class="stack-mono" font-size="11" fill="#60a5fa" font-weight="600">✦ TECH RADAR</text>
+    <text x="145" y="18" font-size="14" font-weight="700" fill="#f0f4fc">THREE TILTED ORBITS &amp; ECOSYSTEM</text>
   </g>
 
   <!-- ==================== ORBITS SECTION ==================== -->
-  <g transform="translate(425, 185)">
+  <g transform="translate(425, 195)">
     <!-- Core Ambient Radial Glow -->
     <circle cx="0" cy="0" r="100" fill="url(#stack-core-glow)" class="stack-core-pulse" />
 
-    <!-- ORBIT 3: Outer Ellipse (tilted -8deg, rx=325, ry=84) -->
+    <!-- ORBIT 3: Outer Ellipse (tilted -8deg, rx=325, ry=80) -->
     <g transform="rotate(-8)">
-      <ellipse cx="0" cy="0" rx="325" ry="84" fill="none" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.2" stroke-dasharray="5,7" />
+      <ellipse cx="0" cy="0" rx="325" ry="80" fill="none" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.2" stroke-dasharray="5,7" />
       
       <!-- Revolving Group Orbit 3 -->
       <g class="stack-orbit-3-rev">
@@ -141,7 +141,7 @@
           </g>
         </g>
         <!-- Node 2: GitHub (Angle 72) -->
-        <g transform="translate(100, 80)">
+        <g transform="translate(100, 76)">
           <g class="stack-counter-3">
             
       <g class="stack-node" id="stack-node-github">
@@ -153,7 +153,7 @@
           </g>
         </g>
         <!-- Node 3: Vercel (Angle 144) -->
-        <g transform="translate(-263, 49)">
+        <g transform="translate(-263, 47)">
           <g class="stack-counter-3">
             
       <g class="stack-node" id="stack-node-vercel">
@@ -165,7 +165,7 @@
           </g>
         </g>
         <!-- Node 4: Python (Angle 216) -->
-        <g transform="translate(-263, -49)">
+        <g transform="translate(-263, -47)">
           <g class="stack-counter-3">
             
       <g class="stack-node" id="stack-node-python">
@@ -177,7 +177,7 @@
           </g>
         </g>
         <!-- Node 5: Figma (Angle 288) -->
-        <g transform="translate(100, -80)">
+        <g transform="translate(100, -76)">
           <g class="stack-counter-3">
             
       <g class="stack-node" id="stack-node-figma">
@@ -191,14 +191,14 @@
       </g>
     </g>
 
-    <!-- ORBIT 2: Middle Ellipse (tilted +16deg, rx=230, ry=62) -->
+    <!-- ORBIT 2: Middle Ellipse (tilted +16deg, rx=230, ry=58) -->
     <g transform="rotate(16)">
-      <ellipse cx="0" cy="0" rx="230" ry="62" fill="none" stroke="rgba(255, 53, 79, 0.35)" stroke-width="1.2" stroke-dasharray="4,6" />
+      <ellipse cx="0" cy="0" rx="230" ry="58" fill="none" stroke="rgba(255, 53, 79, 0.35)" stroke-width="1.2" stroke-dasharray="4,6" />
       
       <!-- Revolving Group Orbit 2 -->
       <g class="stack-orbit-2-rev">
         <!-- Node 1: Tailwind CSS (Angle 45) -->
-        <g transform="translate(163, 44)">
+        <g transform="translate(163, 41)">
           <g class="stack-counter-2">
             
       <g class="stack-node" id="stack-node-tailwind">
@@ -210,7 +210,7 @@
           </g>
         </g>
         <!-- Node 2: Next.js (Angle 135) -->
-        <g transform="translate(-163, 44)">
+        <g transform="translate(-163, 41)">
           <g class="stack-counter-2">
             
       <g class="stack-node" id="stack-node-nextjs">
@@ -222,7 +222,7 @@
           </g>
         </g>
         <!-- Node 3: Node.js (Angle 225) -->
-        <g transform="translate(-163, -44)">
+        <g transform="translate(-163, -41)">
           <g class="stack-counter-2">
             
       <g class="stack-node" id="stack-node-nodejs">
@@ -234,7 +234,7 @@
           </g>
         </g>
         <!-- Node 4: CSS3 (Angle 315) -->
-        <g transform="translate(163, -44)">
+        <g transform="translate(163, -41)">
           <g class="stack-counter-2">
             
       <g class="stack-node" id="stack-node-css">
@@ -248,9 +248,9 @@
       </g>
     </g>
 
-    <!-- ORBIT 1: Inner Ellipse (tilted -12deg, rx=135, ry=40) -->
+    <!-- ORBIT 1: Inner Ellipse (tilted -12deg, rx=135, ry=38) -->
     <g transform="rotate(-12)">
-      <ellipse cx="0" cy="0" rx="135" ry="40" fill="none" stroke="rgba(36, 123, 255, 0.5)" stroke-width="1.5" stroke-dasharray="3,5" />
+      <ellipse cx="0" cy="0" rx="135" ry="38" fill="none" stroke="rgba(36, 123, 255, 0.5)" stroke-width="1.5" stroke-dasharray="3,5" />
       
       <!-- Revolving Group Orbit 1 -->
       <g class="stack-orbit-1-rev">
@@ -267,7 +267,7 @@
           </g>
         </g>
         <!-- Node 2: TypeScript (90 deg) -->
-        <g transform="translate(0, 40)">
+        <g transform="translate(0, 38)">
           <g class="stack-counter-1">
             
       <g class="stack-node" id="stack-node-typescript">
@@ -291,7 +291,7 @@
           </g>
         </g>
         <!-- Node 4: HTML5 (270 deg) -->
-        <g transform="translate(0, -40)">
+        <g transform="translate(0, -38)">
           <g class="stack-counter-1">
             
       <g class="stack-node" id="stack-node-html5">
@@ -312,7 +312,7 @@
   </g>
 
   <!-- ==================== GROUPED STACK CHIPS ==================== -->
-  <g transform="translate(35, 340)">
+  <g transform="translate(35, 348)">
     <rect x="0" y="0" width="780" height="125" rx="14" fill="#091021" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
     
     <!-- Row 1: Languages &amp; Core Web -->
